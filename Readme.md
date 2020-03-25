@@ -9,7 +9,7 @@ git config --global user.name "paulofrancis"
 git config --global user.email "paulofrancis88@gmail.com"
 
 -- config editor   
-git config --global core.edior notepad++
+git config --global core.editor notepad++
 
 -- list all config  
 git config --list 
@@ -27,13 +27,13 @@ git add "file name"
 git commit -a (add) -m (message) "message"
 
 -- log  
-git log --decorate --author="paulofrancis"
-git shortlog -sn
-git log --graph
-git show "commit hash"
+git log --decorate --author="paulofrancis"  
+git shortlog -sn  
+git log --graph  
+git show "commit hash"  
 
 -- show diff  
-git diff
+git diff  
 git diff --name-only
 
 -- reseting changes  
@@ -43,14 +43,16 @@ git checkout "file name"
 git reset HEAD "file name"
 
 -- reset commit  
-git reset --soft "commit hash" -> undo files to staged 
-git reset --mixed "commit hash" -> undo files to modified 
+git reset --soft "commit hash" -> undo files to staged  
+git reset --mixed "commit hash" -> undo files to modified  
 git reset --hard "commit hash" -> undo all files 
 
 -- add remote repository  
-git remote add origin git@github.com:paulofrancis/github-course.git
-git remote -> check remote repository
-git remote -v -> show more info
+git remote add origin git@github.com:paulofrancis/github-course.git  
+git remote -> check remote repository  
+git remote -v -> show more info  
 
 -- push to remote  
-git push -u origin master
+git push -u origin master -> first push  
+git push origin master -> to from  
+
