@@ -1,56 +1,56 @@
-:: Github Course :: 
+:: Github Course ::  
 https://www.udemy.com/course/git-e-github-para-iniciantes
 
 
--- config user name
+-- config user name  
 git config --global user.name "paulofrancis"
 
--- config global email
+-- config global email  
 git config --global user.email "paulofrancis88@gmail.com"
 
--- config editor 
+-- config editor   
 git config --global core.edior notepad++
 
--- list all config 
+-- list all config  
 git config --list 
 
--- init 
+-- init  
 git init 
 
--- check status
+-- check status  
 git status
 
--- add file to staged status
+-- add file to staged status  
 git add "file name"
 
--- commit
+-- commit  
 git commit -a (add) -m (message) "message"
 
--- log 
+-- log  
 git log --decorate --author="paulofrancis"
 git shortlog -sn
 git log --graph
 git show "commit hash"
 
--- show diff
+-- show diff  
 git diff
 git diff --name-only
 
--- reseting changes
+-- reseting changes  
 git checkout "file name"
 
--- removing file from staged
+-- removing file from staged  
 git reset HEAD "file name"
 
--- reset commit 
+-- reset commit  
 git reset --soft "commit hash" -> undo files to staged 
 git reset --mixed "commit hash" -> undo files to modified 
 git reset --hard "commit hash" -> undo all files 
 
--- add remote repository
+-- add remote repository  
 git remote add origin git@github.com:paulofrancis/github-course.git
 git remote -> check remote repository
 git remote -v -> show more info
 
--- push to remote
+-- push to remote  
 git push -u origin master
