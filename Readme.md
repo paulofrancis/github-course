@@ -65,6 +65,8 @@ git branch
 git checkout "branch name" -> switch between branches
 git branch -D "branch name" -> delete branch
 
--- 
+-- merge 
+git merge "branch from name"
+
 
 
