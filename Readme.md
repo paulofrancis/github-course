@@ -56,3 +56,15 @@ git remote -v -> show more info
 git push -u origin master -> first push  
 git push origin master -> to from  
 
+-- clone  
+git clone git@github.com:paulofrancis/github-course.git "folder name opt"
+
+-- branch  
+git checkout -b test  
+git branch  
+git checkout "branch name" -> switch between branches
+git branch -D "branch name" -> delete branch
+
+-- 
+
+
